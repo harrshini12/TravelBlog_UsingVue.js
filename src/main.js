@@ -15,7 +15,3 @@ app.use(VueGoogleMaps, {
 })
 
 app.mount('#app')
-
-
-
-//Api Id for Google Map: AIzaSyDkFqIwL_l-Z8ROcOkCZXBuOzN0JJM1sRk
