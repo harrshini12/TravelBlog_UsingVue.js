@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router/router.js'
 import './main.css'
 import VueGoogleMaps from '@fawmi/vue-google-maps'
-require('dotenv').config();
 
 const app = createApp(App);
 
@@ -11,7 +10,7 @@ app.use(router)
 
 app.use(VueGoogleMaps, {
     load: {
-        key: process.env.API_KEY,
+        key: process.env.VUE_APP_KEY,
     },
 })
 
