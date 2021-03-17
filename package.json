@@ -47,5 +47,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrshini12/TravelBlog_UsingVue.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrshini12/TravelBlog_UsingVue.js/issues"
+  },
+  "homepage": "https://github.com/harrshini12/TravelBlog_UsingVue.js#readme"
 }
