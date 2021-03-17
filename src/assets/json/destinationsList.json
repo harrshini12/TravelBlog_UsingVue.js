@@ -1,0 +1,118 @@
+[
+    {
+      "des_id":1,
+      "image": "./Image/card1.jpg",
+      "title": "Basel",
+      "visitedDate": "3rd nov 2019",
+      "author": "Harrshini",
+      "authorImage":"../Image/AuthorImage.jpg",
+      "Description":
+        "Basel is located in northern Switzerland, the historic city of Basel straddles the Rhine River and borders both Germany and France. The Rhine River curves through Basel, dividing the city into two parts. Basel is commonly considered to be the cultural capital of Switzerland. Basel is famous for its many museums, ranging from the Kunstmuseum, the first collection of art accessible to the public in the world (1661) and the largest museum of art in Switzerland, to the Fondation Beyeler (located in Riehen) and the Museum of Contemporary Art (Basel). ",
+      "youtubeUrl":"https://www.youtube.com/embed/kUEOc4vgq8U",
+      "Location": "Basel Switzerland",
+      "imagecard1":"../Image/baselImage/cardimg_1.1.jpg",
+      "imagecard2":"../Image/baselImage/cardimg_1.2.jpg",
+      "imagecard3":"../Image/baselImage/cardimg_1.3.jpg",
+      "imagecard4":"../Image/baselImage/cardimg_1.4.jpg",
+      "imagecard5":"../Image/baselImage/cardimg_1.5.jpg",
+      "imagecard6":"../Image/baselImage/cardimg_1.6.jpg",
+      "infowindow":"Basel, City in Switzerland",
+      "timelineImage":"../Image/Basel.jpg",
+      "position": {
+        "lat": 47.559601, "lng": 7.588576
+      }
+    },
+    {
+      "des_id":2,
+      "image": "./Image/card2.jpg",
+      "title": "Laufenburg",
+      "visitedDate": "5th feb 2020",
+      "author": "Harrshini",
+      "authorImage":"../Image/AuthorImage.jpg",
+      "Description":
+        "Laufenburg is a small city in Baden-Württemberg, Germany, part of the Waldshut district. Laufenburg is separated from a Swiss city with the same name on the river Rhine. It was great to see a town not just divided between two cities/states but between the two countries.",
+      "youtubeUrl":"https://www.youtube.com/embed/gY2XNlLCCcQ",
+      "Location": "Laufenburg Germany",
+      "infowindow":"Laufenburg, Town in Baden-Wuerttemberg",
+      "imagecard1":"../Image/laufenburgImage/cardimg_2.1.jpg",
+      "imagecard2":"../Image/laufenburgImage/cardimg_2.2.jpg",
+      "imagecard3":"../Image/laufenburgImage/cardimg_2.3.jpg",
+      "imagecard4":"../Image/laufenburgImage/cardimg_2.4.jpg",
+      "imagecard5":"../Image/laufenburgImage/cardimg_2.5.jpg",
+      "imagecard6":"../Image/laufenburgImage/cardimg_2.6.jpg",
+      "timelineImage":"../Image/Lauf.jpg",
+      "position": {
+        "lat": 47.56512, "lng": 8.06045
+      }
+    },
+    {
+      "des_id":3,
+      "image": "./Image/card3.jpg",
+      "title": "Rhine Falls",
+      "visitedDate": "11th april 2020",
+      "author": "Harrshini",
+      "authorImage":"../Image/AuthorImage.jpg",
+      "Description":
+        "The Rhine Falls / Rheinfall is a waterfall located in Schaffhausen Switzerland and the most powerful waterfall in Europe. The falls are located on the High Rhine on the border between the cantons of Schaffhausen (SH) and Zürich (Zurich), between the municipalities of Neuhausen, am Rheinfall (SH) and Laufen-Uhwiesen/Sachsen (ZH), next to the town of Schaffhausen in northern Switzerland.",
+      "Location": "Rheinfall Switzerland",
+      "youtubeUrl":"https://www.youtube.com/embed/x4mFbGhVyKU",
+      "infowindow":"Rhine Falls, Waterfall in Switzerland",
+      "imagecard1":"../Image/rhineFallImage/cardimg_3.1.jpg",
+      "imagecard2":"../Image/rhineFallImage/cardimg_3.2.jpg",
+      "imagecard3":"../Image/rhineFallImage/cardimg_3.3.jpg",
+      "imagecard4":"../Image/rhineFallImage/cardimg_3.4.jpg",
+      "imagecard5":"../Image/rhineFallImage/cardimg_3.5.jpg",
+      "imagecard6":"../Image/rhineFallImage/cardimg_3.6.jpg",
+      "timelineImage":"../Image/Rheinfall.jpg",
+      "position": {
+        "lat": 47.674330636, "lng": 8.609830894
+      }
+    },
+    {
+      "des_id":4,
+      "image": "./Image/card4.jpg",
+      "title": "Bad Säckingen",
+      "visitedDate": "23th may 2020",
+      "author": "Harrshini",
+      "authorImage":"../Image/AuthorImage.jpg",
+      "Description":
+        "Bad Säckingen is a rural town in the administrative district of Waldshut in the state of Baden-Württemberg in Germany. Bad Säckingen is located in the very southwest of Germany next to the Swiss border on the river Rhine. The city lies on the southern edge of the Black Forest area. The Bad Säckingen wooden bridge connects the German city ​​of Bad Säckingen with the municipality of Stein in Switzerland.",
+      "Location": "Bad Säckingen Germany",
+      "youtubeUrl":"https://www.youtube.com/embed/yVLIEGPSNmg",
+      "infowindow":"Bad Säckingen, Town in Baden-Wuerttemberg",
+      "imagecard1":"../Image/badSäckingenImage/cardimg_4.1.jpg",
+      "imagecard2":"../Image/badSäckingenImage/cardimg_4.2.jpg",
+      "imagecard3":"../Image/badSäckingenImage/cardimg_4.3.jpg",
+      "imagecard4":"../Image/badSäckingenImage/cardimg_4.4.jpg",
+      "imagecard5":"../Image/badSäckingenImage/cardimg_4.5.jpg",
+      "imagecard6":"../Image/badSäckingenImage/cardimg_4.6.jpg",
+      "timelineImage":"../Image/badSäackingen.jpg",
+      "position": {
+        "lat": 47.55371, "lng": 7.94612
+      }
+    },
+    {
+      "des_id":5,
+      "image": "./Image/card5.jpg",
+      "title": "Titisee",
+      "visitedDate": "13th june 2020",
+      "author": "Harrshini",
+      "authorImage":"../Image/AuthorImage.jpg",
+      "Description":
+        "The Titisee is a lake in the southern Black Forest in Baden-Württemberg. It covers an area of 1.3 km2 (320 acres) and is an average of 20 m (66 ft) deep. It owes its formation to the Feldberg glacier, the moraines of which were formed in the Pleistocene epoch and nowadays form the shores of the lake. The lake's outflow, at 840 m (2,760 ft) above sea level, is the River Gutach, which merges with the Haslach stream below Kappel to form the Wutach). The waters of the Titisee thus drain eventually into the Upper Rhine between Tiengen and Waldshut. On the north shore lies the spa town of the same name, today a part of the municipality of Titisee-Neustadt.",
+      "Location": "Titisee Germany",
+      "youtubeUrl":"https://www.youtube.com/embed/MxfcZ4hFQ7Y",
+      "infowindow":"Titisee is a lake in the southern Black Forest",
+      "imagecard1":"../Image/TitiseeImage/cardimg_5.1.jpg",
+      "imagecard2":"../Image/TitiseeImage/cardimg_5.2.jpg",
+      "imagecard3":"../Image/TitiseeImage/cardimg_5.3.jpg",
+      "imagecard4":"../Image/TitiseeImage/cardimg_5.4.jpg",
+      "imagecard5":"../Image/TitiseeImage/cardimg_5.5.jpg",
+      "imagecard6":"../Image/TitiseeImage/cardimg_5.6.jpg",
+      "timelineImage":"../Image/Titisee.jpg",
+      "position": {
+        "lat": 47.92104, "lng": 8.19063
+      }
+    }
+]
+
