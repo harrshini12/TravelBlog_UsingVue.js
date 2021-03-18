@@ -3,7 +3,7 @@
     :center="center"
     :zoom="10"
     map-type-id="terrain"
-    style="width: 700px; height: 1330px"
+    class="map1"
   >
     <GMapCluster>
       <GMapMarker
@@ -58,3 +58,19 @@ export default {
   },
 }
 </script>
+<style scoped>
+.map1{
+  width: 700px; 
+  height: 1330px;
+}
+@media (max-width: 1109px) {
+    .map1{
+       display: none;
+    }
+  }
+  @media (max-width: 767px) {
+   .map1{
+      display: none;
+    }
+  }
+</style>

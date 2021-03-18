@@ -3,7 +3,7 @@
     :center="des.position"
     :zoom="10"
     map-type-id="terrain"
-    style="width: 600px; height: 315px"
+    class="map"
   >
       <GMapMarker
         :position="des.position"
@@ -24,3 +24,19 @@ export default {
   },
 }
 </script>
+<style scoped>
+.map{
+  width: 600px; 
+  height: 315px;
+}
+@media (max-width: 1109px) {
+    .map{
+       display: none;
+    }
+  }
+  @media (max-width: 767px) {
+   .map{
+      display: none;
+    }
+  }
+</style>
