@@ -59,4 +59,14 @@ export default {
 .homepageImg {
   height: 600px;
 }
+@media (max-width: 1109px) {
+    .homepageImg{
+       display: none;
+    }
+  }
+  @media (max-width: 767px) {
+   .homepageImg{
+      display: none;
+    }
+  }
 </style>
