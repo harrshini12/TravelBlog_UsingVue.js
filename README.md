@@ -4,7 +4,7 @@ This project is part of the curriculum of the Full-Stack Web Development program
 
 ## Goal
 
-Goal is to transfer the main idea from my last project.
+Goal is to transfer the main idea from my last project(https://travelblog-harrshini.herokuapp.com/).
 made with pure Javascript, HTML and CSS into a **Vue App**.
 
 ## Features
