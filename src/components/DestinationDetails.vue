@@ -10,7 +10,7 @@
               <h1 class="ml-20 font-bold">Visiting Date: {{ des.visitedDate }}</h1>
               <div class="flex ml-auto mr-20 space-x-2">
               <img alt="authorimg"
-                  class="w-8 border-2 border-gray-300 rounded-full"
+                  class="image w-8 border-2 border-gray-300 rounded-full"
                   :src="des.authorImage"
               />
               <p class="mt-1 font-bold">{{ des.author }}</p>
@@ -164,4 +164,15 @@ export default {
 </script>
 
 <style>
+@media (max-width: 1109px) {
+    .image{
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+   .image{
+      display: none;
+    }
+  }
 </style>

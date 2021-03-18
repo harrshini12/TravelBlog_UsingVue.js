@@ -3,7 +3,7 @@
       "des_id":1,
       "image": "./Image/card1.jpg",
       "title": "Basel",
-      "visitedDate": "3rd nov 2019",
+      "visitedDate": "2020-02-05",
       "author": "Harrshini",
       "authorImage":"../Image/AuthorImage.jpg",
       "Description":
@@ -26,7 +26,7 @@
       "des_id":2,
       "image": "./Image/card2.jpg",
       "title": "Laufenburg",
-      "visitedDate": "5th feb 2020",
+      "visitedDate": "2019-11-03",
       "author": "Harrshini",
       "authorImage":"../Image/AuthorImage.jpg",
       "Description":
@@ -49,7 +49,7 @@
       "des_id":3,
       "image": "./Image/card3.jpg",
       "title": "Rhine Falls",
-      "visitedDate": "11th april 2020",
+      "visitedDate": "2020-04-11",
       "author": "Harrshini",
       "authorImage":"../Image/AuthorImage.jpg",
       "Description":
@@ -72,7 +72,7 @@
       "des_id":4,
       "image": "./Image/card4.jpg",
       "title": "Bad Säckingen",
-      "visitedDate": "23th may 2020",
+      "visitedDate": "2020-05-23",
       "author": "Harrshini",
       "authorImage":"../Image/AuthorImage.jpg",
       "Description":
@@ -95,7 +95,7 @@
       "des_id":5,
       "image": "./Image/card5.jpg",
       "title": "Titisee",
-      "visitedDate": "13th june 2020",
+      "visitedDate": "2020-06-13",
       "author": "Harrshini",
       "authorImage":"../Image/AuthorImage.jpg",
       "Description":

@@ -7,7 +7,7 @@
                 <p class="text-center mb-2">{{des.visitedDate}}</p>
             </div> 
     <div class="flex">
-        <img alt="authorimg" class="ml-6 mb-2 w-8 rounded-full border-2 border-gray-300" :src="des.authorImage" /> 
+        <img alt="authorimg" class="image ml-6 mb-2 w-8 rounded-full border-2 border-gray-300" :src="des.authorImage" /> 
         <p class="ml-3 mt-2">{{des.author}}</p>
     </div>       
     </div>
@@ -33,5 +33,15 @@ export default {
 </script>
 
 <style>
+@media (max-width: 1109px) {
+    .image{
+      display: none;
+    }
+  }
 
+  @media (max-width: 767px) {
+   .image{
+      display: none;
+    }
+  }
 </style>

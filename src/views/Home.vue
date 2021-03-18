@@ -6,7 +6,7 @@
       class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center"
     >
       <div v-for="des in destinations" :key="des.des_id">
-        <CardComponent @destinationSelected="cardSelected" :des="des" />
+        <CardComponent :destinations="sortCards(destinations)" @destinationSelected="cardSelected" :des="des" />
       </div>
     </div>
     <div class="my-9">
@@ -38,11 +38,13 @@ export default {
     };
   },
   methods: {
+    sortCards(){
+      return [this.destinations].sort((a,b) => a.visitedDate - b.visitedDate);
+    },
     cardSelected(des_id) {
       this.$emit('destinationSelected', des_id);
     }
   },
-
   computed: {
 
     des() {
