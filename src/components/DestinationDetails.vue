@@ -21,7 +21,7 @@
     <div class="mt-8 mb-10">
       <p class="font-bold text-center text-4xl">Top exprerience in {{ des.title }}</p>
     </div>
-    <div class="relative inline-block mt-20 mb-20 ml-20 sm:ml-5 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 ml-5 sm:ml-20 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-    <div class="relative inline-block mt-20 mb-20 sm:ml-5 ml-20 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 sm:ml-20 ml-5 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="relative inline-block mt-20 mb-20 sm:ml-5 ml-20 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 sm:ml-20 ml-5 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -72,7 +72,7 @@
         </div>
       </div>
     </div>
-    <div class="relative inline-block mt-20 mb-20 sm:ml-5 ml-20 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 sm:ml-20 ml-5 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="relative inline-block mt-20 mb-20 sm:ml-5 ml-20 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 sm:ml-20 ml-5 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -106,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="relative inline-block mt-20 mb-20 sm:ml-5 ml-20 h-96 w-96">
+    <div class="relative inline-block mt-20 mb-20 sm:ml-20 ml-5 h-96 w-96">
       <div
         class="absolute bottom-0 inline-block transform bg-indigo-400 shadow-lg card w-96 h-96 rounded-3xl -rotate-6"
       ></div>
@@ -124,12 +124,11 @@
       </div>
     </div>
     <div>
-      <p class="sm:ml-5 mx-20 my-10 text-justify">{{ des.Description }}</p>
+      <p class="sm:ml-20 mx-5 my-10 text-justify">{{ des.Description }}</p>
     </div>
-    <div class="sm:ml-5 flex ml-20 my-20">
+    <div class="sm:ml-20 flex ml-5 my-20">
       <iframe
-        width="560"
-        height="315"
+        class="youtubesize"
         :src="des.youtubeUrl"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -173,6 +172,16 @@ export default {
   @media (max-width: 767px) {
    .image{
       display: none;
+    }
+  }
+  .youtubesize{
+    width: 560px;
+    height: 315px;
+  }
+  @media (max-width: 767px) {
+   .youtubesize{
+      width: 350px;
+      height: 250px;
     }
   }
 </style>
