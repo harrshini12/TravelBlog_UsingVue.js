@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Details from "../views/Details.vue";
 import Contact from "../views/Contact.vue";
-import NewPost from "../views/NewPost.vue";
 
 const routes = [
   //home page
@@ -15,11 +14,6 @@ const routes = [
     path: "/home",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "/new",
-    name: "NewPost",
-    component: NewPost,
   },
   // details page
   {
