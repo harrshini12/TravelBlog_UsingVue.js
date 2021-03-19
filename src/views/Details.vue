@@ -1,31 +1,28 @@
 <template>
   <div>
+    <!-- Detail page component -->
     <DestinationDetails :des="des" />
   </div>
 </template>
 
 <script>
-
-import DestinationDetails from '../components/DestinationDetails.vue'
+import DestinationDetails from "../components/DestinationDetails.vue";
 
 export default {
-  name: 'Details',
+  name: "Details",
   components: {
-    DestinationDetails
+    DestinationDetails,
   },
   props: {
     destinations: Array,
     des_id: String,
   },
-
   computed: {
-
     des() {
-      return this.destinations.find(item => item.des_id == this.des_id);
-    }
-  }
-}
+      return this.destinations.find((item) => item.des_id == this.des_id);
+    },
+  },
+};
 </script>
 
-<style>
-</style>
+<style></style>
