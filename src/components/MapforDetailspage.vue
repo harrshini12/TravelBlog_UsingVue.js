@@ -8,8 +8,10 @@
       <GMapMarker
         :position="des.position"
         :clickable="true"
-        @click="openInfoWindow(des)"
       >
+      <GMapInfoWindow :opened="true" >
+          <div>{{des.title}}</div>
+      </GMapInfoWindow>
       </GMapMarker>
   </GMapMap>
 </template>

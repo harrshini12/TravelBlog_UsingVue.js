@@ -5,8 +5,8 @@
     <div
       class="flex flex-col items-center sm:flex-wrap sm:flex-row sm:justify-center"
     >
-      <div v-for="des in destinations" :key="des.des_id">
-        <CardComponent :destinations="sortCards(destinations)" @destinationSelected="cardSelected" :des="des" />
+      <div v-for="des in sortCards" :key="des.des_id">
+        <CardComponent @destinationSelected="cardSelected" :des="des" />
       </div>
     </div>
     <div class="my-9">
@@ -28,6 +28,7 @@ export default {
   props: {
     destinations: Array,
     des_id: String,
+    visitedDate: Number
   },
 
   emits: ['destinationSelected'],
@@ -38,18 +39,18 @@ export default {
     };
   },
   methods: {
-    sortCards(){
-      return [this.destinations].sort((a,b) => a.visitedDate - b.visitedDate);
-    },
     cardSelected(des_id) {
       this.$emit('destinationSelected', des_id);
-    }
+    },
   },
   computed: {
-
     des() {
         const desTemp = this.destinations.find(item => item.des_id == this.des_id); 
         return desTemp ? desTemp : {};
+    },
+    sortCards() {
+      const desDate = [...this.destinations].sort((a,b) => new Date(a.visitedDate) - new Date(b.visitedDate));
+      return desDate ? desDate : {};
     }
   }
 }
